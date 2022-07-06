@@ -124,12 +124,12 @@ const Header = () => {
           </div>
         </div>
         {showInput && (
-          <div className="border-t border-white bg-black w-full absolute top-[74px] left-0">
+          <div className="border-t border-white bg-black p-3 w-full absolute top-[74px] left-0">
             <input
               type="text"
               placeholder="Search for motion trend......"
               onChange={handleChange}
-              className="w-full bg-transparent outline-none pl-[26px] text-white py-3 placeholder:text-sm placeholder:text-white"
+              className="w-full bg-white outline-none pl-[26px] text-secondary py-3 placeholder:text-sm placeholder:text-secondary"
             />
           </div>
         )}
