@@ -7,7 +7,7 @@ const Sidebar = ({ setOpenSidebar }: { setOpenSidebar: Function }) => {
         className="fixed top-0 left-0 right-0 h-full bg-[#00000080] z-[9999]"
         onClick={() => setOpenSidebar(false)}
       ></div>
-      <div className="w-[400px] fixed top-0 left-0 bottom-0 bg-white z-[10000]">
+      <div className="w-[250px] md:w-[400px] fixed top-0 left-0 bottom-0 bg-white z-[10000]">
         <ul>
           <li className="text-center py-4">
             <span className="text-sm text-[#8f8f8f] font-medium">Login</span>

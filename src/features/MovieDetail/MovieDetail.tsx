@@ -111,15 +111,15 @@ const MovieDetail = () => {
           <span className="text-xs text-secondary font-normal">Share</span>
         </div>
       </div>
-      <div className="container absolute top-0 left-0 right-0 mx-auto bg-white z-[10000] pt-10 h-screen overflow-y-scroll">
-        <div className="absolute top-0 right-[60px]">
+      <div className="w-[270px] xxs:!container absolute top-0 left-0 right-0 mx-auto bg-white z-[10000] pt-10 h-screen overflow-y-scroll">
+        <div className="absolute top-0 right-5 md:right-[60px]">
           <div className="">
             <img src={LabelTZ} alt="TZ" />
           </div>
         </div>
         <MovieDetailHeader />
 
-        <div className="px-[60px] mt-12 md:mt-[100px] mb-10 relative">
+        <div className="px-[30px] md:px-[60px] mt-12 md:mt-[100px] mb-10 relative">
           <div className="w-full">
             <img src={VideoThumbnail} alt="video" className="w-full" />
           </div>
@@ -128,12 +128,12 @@ const MovieDetail = () => {
           </div>
         </div>
 
-        <p className=" px-[60px]  text-sm text-secondary font-extralight mb-[30px]">
+        <p className="px-[30px] md:px-[60px]  text-sm text-secondary font-extralight mb-[30px]">
           {currentMovie.description_full}
         </p>
 
         {[1, 2, 3].map((item) => (
-          <div key={item} className="w-[90%] px-[60px] mx-auto mt-[70px]">
+          <div key={item} className="w-[90%] md:px-[60px] mx-auto mt-[70px]">
             <img
               src={currentMovie.large_cover_image}
               alt=""
@@ -142,7 +142,7 @@ const MovieDetail = () => {
           </div>
         ))}
 
-        <div className="text-center py-[50px] px-[60px] border border-t border-[#efefef] mt-[50px]">
+        <div className="text-center py-[50px] px-[30px] md:px-[60px] border border-t border-[#efefef] mt-[50px]">
           <h2 className="text-xl md:text-3xl text-secondary font-normal mb-5">
             The first portfolio movement.
           </h2>

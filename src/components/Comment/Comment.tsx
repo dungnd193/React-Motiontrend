@@ -14,7 +14,7 @@ const arr = [
 const Comment = () => {
   return (
     <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 lg:gap-x-[50px]">
-      <div className="col-span-2 pl-[60px] py-[50px] pr-[60px] lg:pr-0">
+      <div className="col-span-2 pl-[30px] md:pl-[60px] py-[50px] pr-[30px] md:pr-[60px] lg:pr-0">
         <h3 className="text-xl text-[#222] font-medium mb-5">Comment</h3>
         <div className="flex flex-1">
           <input
@@ -61,7 +61,7 @@ const Comment = () => {
         </div>
       </div>
       <div className="border border-l-1 border-[#efefef]">
-        <div className="pt-[50px] px-[50px] pb-[40px] border-b border-[#efefef]">
+        <div className="pt-[50px] px-[30px] md:px-[50px] pb-[40px] border-b border-[#efefef]">
           <span className="text-xs text-[#8c8c8c] font-light mb-5 block">
             Owner
           </span>
@@ -96,7 +96,7 @@ const Comment = () => {
           </div>
         </div>
 
-        <div className="px-[50px] py-[40px] border-b border-[#efefef]">
+        <div className="px-[30px] md:px-[50px] py-[40px] border-b border-[#efefef]">
           <span className="text-base text-secondary font-medium mb-4 block">
             The first portfolio movement.
           </span>
@@ -158,7 +158,7 @@ const Comment = () => {
           </span>
         </div>
 
-        <div className="px-[50px] py-[40px] border-b border-[#efefef]">
+        <div className="px-[30px] md:px-[50px] py-[40px] border-b border-[#efefef]">
           <span className="text-xs text-[#8c8c8c] font-light">
             Creative field
           </span>
@@ -175,7 +175,7 @@ const Comment = () => {
           </div>
         </div>
 
-        <div className="px-[50px] py-[40px] border-b border-[#efefef]">
+        <div className="px-[30px] md:px-[50px] py-[40px] border-b border-[#efefef]">
           <div className="flex flex-wrap gap-1">
             {arr.map((item, index) => (
               <span
@@ -188,7 +188,7 @@ const Comment = () => {
           </div>
         </div>
 
-        <div className="px-[50px] py-[40px]">
+        <div className="px-[30px] md:px-[50px] py-[40px]">
           <div className="border border-[#222] flex items-center justify-center gap-x-2 py-[7px] cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12">
               <path

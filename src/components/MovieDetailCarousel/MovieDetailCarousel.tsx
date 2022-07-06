@@ -14,7 +14,7 @@ const MovieDetailCarousel = () => {
   const navigationNextRef = useRef(null);
 
   return (
-    <div className="px-[60px] py-[50px] bg-[#efefef]">
+    <div className="px-5 md:px-[60px] py-[50px] bg-[#efefef]">
       <div className="flex items-center gap-x-4 mb-4">
         <div className="w-[70px]">
           <img src={ProfileAvtWhite} alt="avt" className="w-full" />

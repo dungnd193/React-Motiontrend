@@ -7,7 +7,7 @@ const MovieDetailHeader = () => {
   const { currentMovie } = useAppSelector((state) => state.HomePageSlice);
 
   return (
-    <div className="px-[60px]  flex items-center flex-col lg:flex-row gap-x-[30px]">
+    <div className="px-[30px] md:px-[60px]  flex items-center flex-col lg:flex-row gap-x-[30px]">
       <div className="w-[120px] h-[120px] flex-none">
         <img src={ProfileAvt} alt="avatar" className="w-full" />
       </div>
